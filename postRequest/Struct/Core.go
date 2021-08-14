@@ -33,3 +33,4 @@ func (temp *Core) Handler(text context.Context, inf Input) (Output, error){
 	}
 	return Output{Message: "request done successfully"},nil
 }
+
